@@ -12,10 +12,12 @@
 		<link rel="stylesheet" href="materialize/css/landing-page.css">
 		<link rel="stylesheet" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" href="css/jquery.datetimepicker.css">
+		<link rel="stylesheet" href="css/chosen.min.css">
 		<!-- Compiled and minified JavaScript -->
 		<script src="js/jquery-1.12.0.min.js"></script>
 		<script src="js/jquery-ui.min.js"></script>
 		<script src="js/jquery.datetimepicker.full.min.js"></script>
+		<script src="js/chosen.jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>       
 		<script src="//cdn.transifex.com/live.js"></script>
 		

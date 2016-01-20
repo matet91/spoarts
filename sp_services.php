@@ -402,25 +402,21 @@
 					          
 					        </div>
 				        </div>
-
 				        <div class="row">
-					        
-				        </div>
-
-				        <div class="row">
-					        <div class="input-field col s12" style = 'width:50% !important'>
-					          <i class="material-icons prefix">date_range</i>
-					          <select id = "day_from" style = "text-align:center !important" multiple>
-					          	<option value = ''>Select Day</option>
-					          	<option value = 'Monday'>Monday</option>
-					          	<option value = 'Tuesday'>Tuesday</option>
-					          	<option value = 'Wednesday'>Wednesday</option>
-					          	<option value = 'Thursday'>Thursday</option>
-					          	<option value = 'Friday'>Friday</option>
-					          	<option value = 'Saturday'>Saturday</option>
-					          	<option value = 'Sunday'>Sunday</option>
-					          </select>
-					          <label>Days</label>
+					        <div class="input-field col s12" >
+					          <i class="material-icons prefix" >date_range</i>
+					          <div style = "width:100%; margin-left:46px">
+						          <select id = "days" data-placeholder = "Select Days" class = 'chosen-select' style = "text-align:center !important; width:350px !important; " multiple>
+						          	<option value = ''>Select Day</option>
+						          	<option value = 'Monday'>Monday</option>
+						          	<option value = 'Tuesday'>Tuesday</option>
+						          	<option value = 'Wednesday'>Wednesday</option>
+						          	<option value = 'Thursday'>Thursday</option>
+						          	<option value = 'Friday'>Friday</option>
+						          	<option value = 'Saturday'>Saturday</option>
+						          	<option value = 'Sunday'>Sunday</option>
+						          </select>
+						      </div>
 					        </div>
 				        </div>
 
@@ -471,7 +467,22 @@
 				          <label for="icon_prefix">Service Name</label>
 				        </div>
 				       </div>
-
+				        <div class="row">
+					        <div class="input-field col s12" >
+					          <i class="material-icons prefix" >date_range</i>
+					          <div style = "width:100%; margin-left:46px">
+						          <select id = "day_from" data-placeholder = "Select Days" class = 'chosen-select' style = "text-align:center !important; width:350px !important; " multiple>
+						          	<option value = 'Monday'>Monday</option>
+						          	<option value = 'Tuesday'>Tuesday</option>
+						          	<option value = 'Wednesday'>Wednesday</option>
+						          	<option value = 'Thursday'>Thursday</option>
+						          	<option value = 'Friday'>Friday</option>
+						          	<option value = 'Saturday'>Saturday</option>
+						          	<option value = 'Sunday'>Sunday</option>
+						          </select>
+						      </div>
+					        </div>
+				        </div>
 				       <div class="row">
 					        <div class="input-field col s12" style = 'width:50% !important'>
 					          <i class="material-icons prefix">access_time</i>
@@ -486,41 +497,7 @@
 					        </div>
 				        </div>
 
-				        <div class="row">
-					        
-				        </div>
-
-				        <div class="row">
-					        <div class="input-field col s12" style = 'width:50% !important'>
-					          <i class="material-icons prefix">date_range</i>
-					          <select id = "day_from" required style = "text-align:center !important">
-					          	<option value = ''>Select Day</option>
-					          	<option value = 'Monday'>Monday</option>
-					          	<option value = 'Tuesday'>Tuesday</option>
-					          	<option value = 'Wednesday'>Wednesday</option>
-					          	<option value = 'Thursday'>Thursday</option>
-					          	<option value = 'Friday'>Friday</option>
-					          	<option value = 'Saturday'>Saturday</option>
-					          	<option value = 'Sunday'>Sunday</option>
-					          </select>
-					          <label>From</label>
-					        </div>
-
-					        <div class="input-field col s12" style = 'width:50% !important'>
-					          <i class="material-icons prefix">date_range</i>
-					          <select id = "day_to" required style = "text-align:center !important">
-					          	<option value = ''>Select Day</option>
-					          	<option value = 'Monday'>Monday</option>
-					          	<option value = 'Tuesday'>Tuesday</option>
-					          	<option value = 'Wednesday'>Wednesday</option>
-					          	<option value = 'Thursday'>Thursday</option>
-					          	<option value = 'Friday'>Friday</option>
-					          	<option value = 'Saturday'>Saturday</option>
-					          	<option value = 'Sunday'>Sunday</option>
-					          </select>
-					          <label>To</label>
-					        </div>
-				        </div>
+				        
 				    </form>
 				  </div>
 			    </div>

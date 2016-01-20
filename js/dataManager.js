@@ -20,4 +20,6 @@ $(document).ready(function(){
 		 formatTime: 'h:m a',
 		 format: 'h:m a'
 		});
+
+	$("#days").chosen({width: "95%",max_selected_options: 4});
 });
