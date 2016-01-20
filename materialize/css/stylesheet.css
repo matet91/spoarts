@@ -1,0 +1,103 @@
+html,body{
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	margin: 0;
+  	padding: 0;
+}
+
+nav{
+	background-color: #3f51b5;
+	height: 70px;
+}
+
+a:hover{
+	color: #37aeaf;
+}
+
+#logo{
+	height: 50px;
+	margin-left: 30px;
+}
+
+.nav-wrapper{
+	margin-top: 9px;
+}
+
+.right{
+	margin-right: 30px;
+}
+
+#slide-logo{
+	height: 50px;
+	width: 50px;
+	float: center;
+}
+
+#spo{
+	font-family: Lobster;
+
+}
+
+#arts{
+	font-family: Lobster;
+	color: #37aeaf;
+}
+
+#slogan{
+	font-family: Cookie;
+	font-size: 30pt;
+}
+
+.slider{
+	
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #37AEAF;
+}
+
+#navs{
+	margin-left: 190px;
+	margin-top: -5px;
+	text-transform: uppercase;
+}
+
+#register{
+	margin-left: 700px;
+}
+
+.modal{
+	width: 30%;
+}
+
+#modal-logo{
+	height: 90px;
+	margin-left: 2.3em;
+}
+
+#reg-note{
+	color: #FF3300;
+	margin-top: 130px;
+}
+
+#lbl-reg{
+	font-size: 10pt;
+}
+
+input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid {
+    border-bottom: 1px solid #65e76c;
+    box-shadow: 0 1px 0 0 #65e76c; }
+  input[type=text].valid + label:after, input[type=text]:focus.valid + label:after, input[type=password].valid + label:after, input[type=password]:focus.valid + label:after, input[type=email].valid + label:after, input[type=email]:focus.valid + label:after, input[type=url].valid + label:after, input[type=url]:focus.valid + label:after, input[type=time].valid + label:after, input[type=time]:focus.valid + label:after, input[type=date].valid + label:after, input[type=date]:focus.valid + label:after, input[type=datetime-local].valid + label:after, input[type=datetime-local]:focus.valid + label:after, input[type=tel].valid + label:after, input[type=tel]:focus.valid + label:after, input[type=number].valid + label:after, input[type=number]:focus.valid + label:after, input[type=search].valid + label:after, input[type=search]:focus.valid + label:after, textarea.materialize-textarea.valid + label:after, textarea.materialize-textarea:focus.valid + label:after {
+    content: attr(data-success);
+    color: #65e76c;
+    opacity: 1; }
+
+
+
+/*footer.page-footer{
+	background-color: #3f51b5;
+	margin-top: 845px;
+}
+
+.footer-copyright{
+	height: 50px;
+}*/

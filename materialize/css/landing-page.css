@@ -1,0 +1,136 @@
+html,body{
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	margin: 0;
+  	padding: 0;
+}
+
+nav{
+	background-color: #3f51b5;
+	height: 70px;
+}
+
+a:hover{
+	color: #37aeaf;
+}
+
+#logo{
+	height: 50px;
+	margin-left: 30px;
+}
+
+.nav-wrapper{
+	margin-top: 9px;
+}
+
+.right{
+	margin-right: 30px;
+}
+
+#slide-logo{
+	height: 50px;
+	width: 50px;
+	float: center;
+}
+
+#spo{
+	font-family: Lobster;
+
+}
+
+#arts{
+	font-family: Lobster;
+	color: #37aeaf;
+}
+
+#slogan{
+	font-family: Cookie;
+	font-size: 30pt;
+}
+
+.slider{
+	
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #37AEAF;
+}
+
+#navs{
+	margin-left: 190px;
+	margin-top: -5px;
+	text-transform: uppercase;
+}
+
+#register{
+	margin-left: 700px;
+}
+
+.modal{
+	width: 40%;
+}
+
+#modal-logo{
+	height: 90px;
+	
+}
+
+#reg-note{
+	color: #FF3300;
+	margin-top: 130px;
+}
+
+#lbl-reg{
+	font-size: 10pt;
+}
+
+span.badge.new {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #f44336;
+    border-radius: 2px; }
+
+
+.profile-pic {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+/*  line-height: 32px;
+  border-radius: 16px;*/
+  padding: 0 12px; }
+  .profile-pic img {
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; }
+  .profile-pic i.material-icons {
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 8px; }
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.act {
+    padding: 15px;
+    text-align: center;
+}
+
+/*footer.page-footer{
+	background-color: #3f51b5;
+	margin-top: 845px;
+}
+
+.footer-copyright{
+	height: 50px;
+}*/
