@@ -458,20 +458,33 @@
 			      <h4 class="center"><img  id="modal-logo" src="images/logo.png"></h4>
 			      <hr>
 			      <div class="row">
-				    <form class="col s12">
+				    <form class="col s12" id = "frm_services">
 
 				      <div class="row">
 				        <div class="input-field col s12">
 				          <i class="material-icons prefix">color_lens</i>
-				          <input id="icon_prefix" type="text" class="validate" required>
+				          <input id="icon_prefix" type="text" class="validate" id = "service_name" name = "service_name" required>
 				          <label for="icon_prefix">Service Name</label>
 				        </div>
 				       </div>
-				        <div class="row">
-					        <div class="input-field col s12" >
-					          <i class="material-icons prefix" >date_range</i>
-					          <div style = "width:100%; margin-left:46px">
-						          <select id = "day_from" data-placeholder = "Select Days" class = 'chosen-select' style = "text-align:center !important; width:350px !important; " multiple>
+				       <div class="row">
+					        <div class="input-field col s12" style = 'width:50% !important'>
+					          <i class="material-icons prefix">date_range</i>
+					          <div style = "margin-left:46px">
+						          <select name = "day_from" id = "day_from" data-placeholder = "Select Day From" class = 'chosen-select' style = "text-align:center !important; width:350px !important; ">
+							          	<option value = 'Monday'>Monday</option>
+							          	<option value = 'Tuesday'>Tuesday</option>
+							          	<option value = 'Wednesday'>Wednesday</option>
+							          	<option value = 'Thursday'>Thursday</option>
+							          	<option value = 'Friday'>Friday</option>
+							          	<option value = 'Saturday'>Saturday</option>
+							          	<option value = 'Sunday'>Sunday</option>
+							          </select>
+							    </div>
+					        </div>
+
+					        <div class="input-field col s12" style = 'width:50% !important'>
+					          <select id = "day_to" name = "day_to" data-placeholder = "Select Day To" class = 'chosen-select' style = "text-align:center !important; width:350px !important; ">
 						          	<option value = 'Monday'>Monday</option>
 						          	<option value = 'Tuesday'>Tuesday</option>
 						          	<option value = 'Wednesday'>Wednesday</option>
@@ -479,19 +492,18 @@
 						          	<option value = 'Friday'>Friday</option>
 						          	<option value = 'Saturday'>Saturday</option>
 						          	<option value = 'Sunday'>Sunday</option>
-						          </select>
-						      </div>
+						        </select>
 					        </div>
 				        </div>
 				       <div class="row">
 					        <div class="input-field col s12" style = 'width:50% !important'>
 					          <i class="material-icons prefix">access_time</i>
-					          <input type="text" required id = 'time_from'>
+					          <input type="text" required id = 'time_from' name = 'time_from'>
 					          <label>From</label>
 					          
 					        </div>
 					        <div class="input-field col s12" style = 'width:50% !important'>
-					          <input type="text" required id = 'time_to'>
+					          <input type="text" required id = 'time_to' name = 'time_to'>
 					          <label>To</label>
 					          
 					        </div>
@@ -502,7 +514,7 @@
 				  </div>
 			    </div>
 			    <div class="modal-footer">
-			      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+			      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" id = "add_services">Submit</a>
 			      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
 			    </div>
 			</div>

@@ -21,5 +21,16 @@ $(document).ready(function(){
 		 format: 'h:m a'
 		});
 
-	$("#days").chosen({width: "95%",max_selected_options: 4});
+	$(".chosen-select").chosen({width: "95%",max_selected_options: 4});
+
+	//add new service/clinic
+	$("#add_services").click(function(){
+		add_services();
+	});
 });
+
+function add_services(){
+	alert("sdfsd");
+	var frm_services = $("#frm_services").serializeArray();
+	console.log(frm_services);	
+}
